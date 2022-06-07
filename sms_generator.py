@@ -80,5 +80,5 @@ class SMS_summarizor(object):
         
         location = open(path + json_file_name,'w')
         json.dump(dict1,location, indent = 2)
-        print("Json File successfull saved.")
+        print("Json File Is successfull saved.")
 
